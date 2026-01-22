@@ -11,60 +11,47 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Kostenloses Erstgespräch",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Wir lernen uns kennen. Du buchst einen Termin, und wir sprechen über Deine aktuelle Situation, Ziele und Hürden. Völlig unverbindlich.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Analyse & Deep Dive",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Wir analysieren Dein bestehendes Angebot und identizieren die Lücken. Wo lässt Du Geld liegen? Wo ist die Positionierung unscharf?",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Erstellung 'Volltreffer-Angebot'",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Wir entwicklen ein maßgeschneidertes, unwiderstehliches Angebot für Dich. Auf Wert ausgerichtet, nicht stundenbasiert. Werbetexte inklusive.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Zahlung erst bei Erfolg",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Du zahlst nur, wenn Du mit dem Ergebnis zu 100% zufrieden bist. Kein Risiko für Dich. Das ist unsere Verpflichtung anderen Unternehmern zu helfen.",
   },
-  {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
-  },
-  {
-    icon: "Newspaper",
-    title: "Clear Headline",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
-  },
+
 ];
 
-export const FeaturesSection = () => {
+export const ProcessSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Die Lösung
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Wie wir Dir helfen
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Unser bewährter Ansatz, der auch Dich auf das nächste Level bringen wird.
       </h3>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">
         {featureList.map(({ icon, title, description }) => (
           <div key={title}>
             <Card className="h-full bg-background border-0 shadow-none">
