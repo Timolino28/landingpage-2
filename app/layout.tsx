@@ -19,17 +19,19 @@ export default function RootLayout({
   return (
     <html lang="pt-br" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background", inter.className)}>
-        <ThemeProvider
+        <Navbar />
+        {children}
+      </body>
+    </html>
+  );
+}
+
+{/*
+  <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
-  );
-}
+          </ThemeProvider>
+  */}
