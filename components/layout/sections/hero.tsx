@@ -24,7 +24,7 @@ export const HeroSection = () => {
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
             Wir erstellen Dir ein verkaufsfähiges Angebot und setzen Dich so von Deiner Konkurrenz ab.
-            <br /> Du zahlst erst, wenn Du Ergebnisse siehst.
+            <br /> Du zahlst erst, wenn Du Ergebnisse siehst - versprochen!
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
