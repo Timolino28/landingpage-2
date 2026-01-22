@@ -10,20 +10,20 @@ export const HeroSection = () => {
       <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
         <div className="text-center space-y-8">
           <Badge variant="outline" className="text-sm py-2">
-            <span>Umsatzsteigerung? Erledigen wir!</span>
+            <span>Bring Deine Dienstleistung aufs nächste Level</span>
           </Badge>
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
-              Umsatzsteigerung in den nächsten
+              Wir steigern Deinen Umsatz in den nächsten
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                30 Tagen
+                6 Wochen
               </span>
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            Wir erstellen Dir ein verkaufsfähiges Angebot und setzen Dich so von Deiner Konkurrenz ab.
+            Durch die Erstellung eines verkaufsfähiges Angebots setzen wir Dich von Deiner Konkurrenz ab.
             <br /> Du zahlst erst, wenn Du Ergebnisse siehst - versprochen!
           </p>
 

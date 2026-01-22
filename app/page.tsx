@@ -1,5 +1,5 @@
 import { PainSection } from "@/components/layout/sections/pain";
-import { CommunitySection } from "@/components/layout/sections/community";
+import { CallToAction } from "@/components/layout/sections/cta";
 import { ContactSection } from "@/components/layout/sections/contact";
 import { FAQSection } from "@/components/layout/sections/faq";
 import { ProcessSection } from "@/components/layout/sections/process";
@@ -45,8 +45,7 @@ export default function Home() {
       <HeroSection />
       <PainSection />
       <ProcessSection />
-      <TestimonialSection />
-      <CommunitySection />
+      <CallToAction />
       <FAQSection />
       <FooterSection />
     </>

@@ -31,7 +31,7 @@ const benefitList: PainProps[] = [
     icon: "Sparkle",
     title: "Kein Mehrwert",
     description:
-      "Du verkaufst einfach Deine Dienstleistung, statt Ergebnisse. Mögliche Kunden sehen Dich als 'einfach nur ein weiterer Anbieter'.",
+      "Du verkaufst einfach Deine Dienstleistung, statt Ergebnisse. Mögliche Kunden sehen Dich als 'nur ein weiterer Anbieter'.",
   },
 ];
 
@@ -46,7 +46,7 @@ export const PainSection = () => {
             Kommt Dir das bekannt vor?
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Du verfolgst Deinen Traum von der Selbstständigkeit, doch jeder Monat ist ein Kampf.
+            Du verfolgst Deinen Traum von der Selbstständigkeit, arbeitest viel und opferst Dich auf. Jeden Monat wird die Umsatzuhr auf 0 gestellt und Du hoffst, sie irgendwie wieder aufgedreht zu bekommen.
           </p>
         </div>
 

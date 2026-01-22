@@ -19,19 +19,19 @@ const featureList: FeaturesProps[] = [
     icon: "BadgeCheck",
     title: "Analyse & Deep Dive",
     description:
-      "Wir analysieren Dein bestehendes Angebot und identizieren die Lücken. Wo lässt Du Geld liegen? Wo ist die Positionierung unscharf?",
+      "Wir analysieren Dein bestehendes Angebot und identifizieren die Lücken. Wo lässt Du Geld liegen? Wo ist die Positionierung unscharf?",
   },
   {
     icon: "Goal",
     title: "Erstellung 'Volltreffer-Angebot'",
     description:
-      "Wir entwicklen ein maßgeschneidertes, unwiderstehliches Angebot für Dich. Auf Wert ausgerichtet, nicht stundenbasiert. Werbetexte inklusive.",
+      "Wir entwicklen ein maßgeschneidertes, unwiderstehliches Angebot für Dich, das Deine Interessenten nur schwer ablehnen können.",
   },
   {
     icon: "PictureInPicture",
     title: "Zahlung erst bei Erfolg",
     description:
-      "Du zahlst nur, wenn Du mit dem Ergebnis zu 100% zufrieden bist. Kein Risiko für Dich. Das ist unsere Verpflichtung anderen Unternehmern zu helfen.",
+      "Du zahlst nur, wenn Du Resultate siehst. Das ist unsere Verpflichtung anderen Unternehmern zu helfen.",
   },
 
 ];
@@ -48,7 +48,7 @@ export const ProcessSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Unser bewährter Ansatz, der auch Dich auf das nächste Level bringen wird.
+        Unser Ansatz, der auch Dich hoffentlich auf das nächste Level bringen wird.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">

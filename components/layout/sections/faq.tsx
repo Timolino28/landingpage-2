@@ -13,26 +13,26 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Ist das Erstegspräch wirklich kostenlos?",
+    answer: "Ja. Dieses Versprechen ist kein Köder, sondern Tatsache. Das Erstgespräch und auch alle weiteren Folgegespräche sind ohne Kosten für Dich.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Wie läuft die Zusammenarbeit ab?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Nach unserem Erstgespräch gehen wir mit den Infos, die Du uns gegeben hast, in die erste Analyse und brainstormen erste Ideen. Sehr wahrscheinlich werden sich bei uns weitere Fragen auftun, die wir telefonisch mit Dir klären. Sobald wir die Strategie für Dich aufgestellt haben, setzen wir sie für Dich um. Ab diesem Zeitpunkt beginnt die 6 Wochenfrist für die Erfolgsmessung.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Wie messt Ihr 'Erfolg' hinsichtlich der Zahlung Eurer Unterstützung?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Wenn Du nach Implementierung unserer Strategie, die wir für Dich ausgearbeitet haben, nach 6 Wochen nicht mindestens 10% Umsatzwachstum siehst, bist Du uns keinen Cent schuldig.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Warum macht ihr das?",
+    answer: "Wir sind ein junges Unternehmen und müssen selbst noch viel lernen. Mit diesem Ansatz, der für uns funktioniert hat, möchten wir feststellen, ob wir auch anderen Unternehmern helfen können.",
     value: "item-4",
   },
   {
@@ -52,7 +52,7 @@ export const FAQSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
+          Häufig gestellte Fragen
         </h2>
       </div>
 
