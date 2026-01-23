@@ -40,12 +40,12 @@ export const PainSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Das Problem</h2>
+          <h2 className="text-lg text-violett mb-2 tracking-wider">Das Problem</h2>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl text-white font-bold mb-4">
             Kommt Dir das bekannt vor?
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
+          <p className="text-xl text-white/60 mb-8">
             Du verfolgst Deinen Traum von der Selbstständigkeit, arbeitest viel und opferst Dich auf. Jeden Monat wird die Umsatzuhr auf 0 gestellt und Du hoffst, sie irgendwie wieder aufgedreht zu bekommen.
           </p>
         </div>
@@ -54,22 +54,22 @@ export const PainSection = () => {
           {benefitList.map(({ icon, title, description }) => (
             <Card
               key={title}
-              className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
+              className="bg-violett/30 border-solid border-violett/70 hover:border-violett transition-all delay-75 group/number"
             >
               <CardHeader>
                 <div className="flex justify-between">
                   <Icon
                     name={icon as keyof typeof icons}
                     size={32}
-                    color="hsl(var(--primary))"
+                    color="#7D39EB"
                     className="mb-6 text-primary"
                   />
                 </div>
 
-                <CardTitle>{title}</CardTitle>
+                <CardTitle className="text-white">{title}</CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground">
+              <CardContent className="text-white/60">
                 {description}
               </CardContent>
             </Card>
