@@ -49,9 +49,9 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
+    <header className="shadow-inner w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mt-5 mx-auto border border-secondary/10 z-40 rounded-2xl flex justify-between items-center p-2 bg-limone">
       <Link href="/" className="font-bold text-lg flex items-center">
-        <TrendingUp className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
+        <TrendingUp className="bg-gradient-to-tr border-black from-white via-white/70 to-white rounded-lg w-9 h-9 mr-2 border text-black" />
         Umsatzfabrik
       </Link>
       {/* <!-- Mobile --> */}
