@@ -39,36 +39,36 @@ const featureList: FeaturesProps[] = [
 export const ProcessSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
+      <h2 className="text-lg text-limone text-center mb-2 tracking-wider">
         Die Lösung
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
+      <h2 className="text-3xl text-white md:text-4xl text-center font-bold mb-4">
         Wie wir Dir helfen
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+      <h3 className="md:w-1/2 mx-auto text-xl text-center text-white/60 mb-8">
         Unser Ansatz, der auch Dich hoffentlich auf das nächste Level bringen wird.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">
         {featureList.map(({ icon, title, description }) => (
           <div key={title}>
-            <Card className="h-full bg-background border-0 shadow-none">
+            <Card className="h-full bg-limone/30 border-solid border-limone/70 hover:border-limone transition-all delay-75 shadow-none">
               <CardHeader className="flex justify-center items-center">
-                <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
+                <div className="bg-limone/20 p-2 rounded-full ring-8 ring-limone/10 mb-4">
                   <Icon
                     name={icon as keyof typeof icons}
                     size={24}
-                    color="hsl(var(--primary))"
-                    className="text-primary"
+                    color="#C6FF33"
+                    className="text-limone"
                   />
                 </div>
 
-                <CardTitle>{title}</CardTitle>
+                <CardTitle className="text-white">{title}</CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground text-center">
+              <CardContent className="text-white/60 text-center">
                 {description}
               </CardContent>
             </Card>
