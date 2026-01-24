@@ -10,16 +10,16 @@ import {
 
 export const CallToAction = () => {
   return (
-    <section id="community" className="py-12 bg-black">
+    <section id="community" className="py-12 bg-limone">
       <div className="container py-20 sm:py-20">
         <div className="lg:w-[60%] mx-auto">
-          <Card className="bg-background border-none shadow-none text-center flex flex-col items-center justify-center">
+          <Card className="bg-neutral-900 border-none shadow-none text-center flex flex-col items-center justify-center">
             <CardHeader>
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
-                <DiscordIcon />
-                <div>
+                <DiscordIcon color="white" />
+                <div className="text-white">
                   Bist Du bereit für
-                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+                  <span className="text-violett pl-2  bg-clip-text">
                     Wachstum?
                   </span>
                 </div>
@@ -30,7 +30,7 @@ export const CallToAction = () => {
             </CardContent>
 
             <CardFooter>
-              <Button asChild>
+              <Button asChild className="bg-limone text-black">
                 <a href="#" target="_blank">
                   Zur Buchung
                 </a>
