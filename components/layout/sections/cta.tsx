@@ -10,7 +10,7 @@ import {
 
 export const CallToAction = () => {
   return (
-    <section id="community" className="py-12 bg-limone">
+    <section id="community" className="py-12">
       <div className="container py-20 sm:py-20">
         <div className="lg:w-[60%] mx-auto">
           <Card className="bg-neutral-900 border-none shadow-none text-center flex flex-col items-center justify-center">
@@ -25,7 +25,7 @@ export const CallToAction = () => {
                 </div>
               </CardTitle>
             </CardHeader>
-            <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
+            <CardContent className="lg:w-[80%] text-white/60 text-xl">
               Buche jetzt Dein kostenloses Erstgespräch.
             </CardContent>
 
